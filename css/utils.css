@@ -1,0 +1,77 @@
+.padding{
+    padding: 0.75em;
+}
+.padding-top{
+    padding-top: 0.75em;
+}
+.margin{
+    margin: 0.5em;
+}
+.auto-margin{
+    margin: auto;
+}
+.border-top{
+    border-top: 1px solid #eee;
+}
+.border-bottom{
+    border-bottom: 1px solid #eee;
+}
+.border-radius{
+    border-radius: 3px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.fixed{
+    position: fixed;
+}
+.full-width{
+    width: 100%;
+}
+.bg-white{
+    background-color: #fff;
+}
+.no-margin{
+    margin: 0;
+}
+.border{
+    border: 1px solid #ddd;
+}
+.text-center{
+    text-align: center;
+}
+.shadow{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.row{
+    display: flex;
+    overflow: scroll;
+    align-items: flex-start;
+}
+.vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.w-50{
+    width: 50%;
+}
+
+@media(max-width: 768px){
+    .w-50{
+        width: 75%;
+    }
+}
