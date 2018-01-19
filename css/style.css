@@ -38,7 +38,7 @@ p{
     width: 15em;
     min-width: 12em;
     max-height: calc(100vh - 56px - 1.5em);
-    overflow: scroll;
+    overflow: auto;
 }
 .list + .list{
     margin-left: 0.75em;
